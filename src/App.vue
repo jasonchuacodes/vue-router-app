@@ -1,6 +1,6 @@
 <template>
-  <div class="nav">
-    <router-link to="/">Home</router-link> |
+  <div id="nav">
+    <router-link to="/">Home</router-link>
     <router-link to="/brazil">Brazil</router-link>
   </div>
   <div class="container">
