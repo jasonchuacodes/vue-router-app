@@ -5,6 +5,7 @@
     <router-link to="/jamaica">Jamaica</router-link>
     <router-link to="/panama">Panama</router-link>
     <router-link to="/hawaii">Hawaii</router-link>
+    <router-link to="/about">About</router-link>
   </div>
   <div class="container">
     <router-view/>
