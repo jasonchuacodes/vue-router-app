@@ -1,6 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Brazil from '../views/Brazil.vue'
+import Hawaii from '../views/Hawaii.vue'
+import Panama from '../views/Panama.vue'
+import Jamaica from '../views/Jamaica.vue'
 
 const routes = [
   {
@@ -12,6 +15,21 @@ const routes = [
     path: '/brazil',
     name: 'brazil',
     component: Brazil
+  },
+  {
+    path: '/hawaii',
+    name: 'hawaii',
+    component: Hawaii
+  },
+  {
+    path: '/jamaica',
+    name: 'jamaica',
+    component: Jamaica
+  },
+  {
+    path: '/panama',
+    name: 'panama',
+    component: Panama
   },
   {
     path: '/about',
